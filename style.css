@@ -1,0 +1,107 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffbf2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    width: 90%;
+    text-align: center;
+    background-color: #f78fb3;
+    color: #fff;
+    padding: 3%;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8a5c2;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 2%;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#sobre, #catalogo, #itens {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto 3%;
+    background: #fff;
+    padding: 4%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#sobre h2, #catalogo h2, #itens h2 {
+    text-align: center;
+    color: #f78fb3;
+    font-size: 1.8em;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+form {
+    width: 100%;
+}
+
+label, input, select, textarea, button {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+input, select, textarea {
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background: #f78fb3;
+    color: #fff;
+    padding: 2%;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f8a5c2;
+}
+
+.item {
+    background: #fceef5;
+    padding: 4%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 3%;
+    border-radius: 8px;
+}
+
+.item h3 {
+    margin: 0;
+    padding-bottom: 3%;
+    color: #f78fb3;
+}
+
+footer {
+    width: 90%;
+    text-align: center;
+    background-color: #f8a5c2;
+    padding: 2%;
+    color: #fff;
+}

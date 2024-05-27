@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Roupas Infantis</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Loja de Roupas Infantis</h1>
+    </div>
+
+        <nav>
+            <a href="#sobre">Nossa Missão</a>
+            <a href="#catalogo">Catalogo</a>
+            <a href="#itens">Adicionar Novos Itens</a>
+        </nav>
+
+        <div id="sobre">
+            <h2>Nossa Missão:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nisi quibusdam quia 
+                laudantium nobis voluptatibus perspiciatis? Provident rem id tempore quisquam labore quae pariatur, 
+                voluptatibus, nostrum enim magni, qui soluta.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nisi quibusdam quia 
+                laudantium nobis voluptatibus perspiciatis? Provident rem id tempore quisquam labore quae pariatur, 
+                voluptatibus, nostrum enim magni, qui soluta.</p>
+        </div>
+
+        <div id="catalogo">
+            <h2>Catalogo</h2>
+
+        </div>
+
+        <div id="itens">
+            <h2>Adicionar Itens</h2>
+
+            <form id="adicionar">
+
+                <label for="nome">Nome da Roupa</label>
+                <input type="text" id="nome" required><br>
+
+                <label for="tamanho">Tamanho</label>
+                <select name="tamanho" id="tamanho" required>
+                    <option value="PP">PP</option>
+                    <option value="P">P</option>
+                    <option value="M">M</option>
+                    <option value="G">G</option>
+                    <option value="GG">GG</option>
+                    <option value="XG">XG</option>
+                    <option value="XXG">XXG</option>
+                </select><br>
+
+                <label for="descricao">Descrição</label>
+                <textarea name="descricao" id="descricao" required></textarea><br>
+
+                <label for="preco">Preço</label>
+                <input type="number" id="preco" required><br>
+
+                <button type="submit">Adicionar no Catalogo</button>
+            </form>
+        </div>
+
+        <footer>
+            <div>
+                <h4>@Desenvolvedor Irlam Fernandes</h4>
+                <p>Entre em contato e faça sua pagina</p>
+                <a href="https://github.com/Irlamfernandes">Github</a><br>
+                <a href="https://api.whatsapp.com/send?phone=5524992248899">WhatsApp</a>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
