@@ -84,17 +84,24 @@ button:hover {
     background: #f8a5c2;
 }
 
+.item img{
+    width: 40%;
+    height: auto;
+    margin-bottom: 4%;
+}
+
 .item {
     background: #fceef5;
     padding: 4%;
     border-bottom: 1px solid #ddd;
     margin-bottom: 3%;
     border-radius: 8px;
+    text-align: left;
 }
 
 .item h3 {
     margin: 0;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     color: #f78fb3;
 }
 
